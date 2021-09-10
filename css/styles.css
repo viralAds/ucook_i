@@ -45,6 +45,7 @@ div {
   color: #fff;
   border: 2px solid #fff;
   cursor: pointer;
+  visibility: hidden;
 }
 
 .skip-button:hover,
@@ -545,6 +546,10 @@ div {
   box-shadow: #000000a1 0px 0px 3px 0px;
 }
 
+.products .card a {
+  text-decoration: none;
+}
+
 .products .card .card-head,
 .products .card .subheading {
   width: 100%;
@@ -560,13 +565,13 @@ div {
 }
 
 .products .card .card-head p {
-  font-size: 0.8vw;
+  font-size: 0.9vw;
   font-weight: bold;
   border-bottom: dotted red 1px;
 }
 
 .products .card .subheading p {
-  font-size: 0.75vw;
+  font-size: 0.85vw;
 }
 
 .products .card .image {
