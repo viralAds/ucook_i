@@ -30,6 +30,7 @@ div {
   color: #fff;
   border: 2px solid #fff;
   cursor: pointer;
+  visibility: hidden;
 }
 
 .skip-button {
@@ -37,7 +38,7 @@ div {
   left: 0;
   width: 80px;
   padding: 5px 0;
-  bottom: 7.2rem;
+  bottom: 5rem;
   text-align: center;
   font-size: 16px;
   background-color: none;
