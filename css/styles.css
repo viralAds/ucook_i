@@ -565,13 +565,13 @@ div {
 }
 
 .products .card .card-head p {
-  font-size: 0.9vw;
+  font-size: 13px;
   font-weight: bold;
   border-bottom: dotted red 1px;
 }
 
 .products .card .subheading p {
-  font-size: 0.85vw;
+  font-size: 12px;
 }
 
 .products .card .image {
