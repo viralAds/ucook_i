@@ -1,5 +1,6 @@
 function Ready() {
-  document.getElementById("open-window").style.visibility = 'hidden';
+  
+  document.getElementById("open-window").style.visibility = "hidden";
   var icon = document.getElementById("icon");
   icon.addEventListener("click", closeWindow);
 
@@ -13,20 +14,22 @@ function Ready() {
 function closeWindow() {
   var prodWindow = document.getElementById("product-window");
   prodWindow.style.display = "none";
-  document.getElementById("open-window").style.visibility = 'visible';
+  document.getElementById("open-window").style.visibility = "visible";
 }
 
 function openWindow() {
   var prodWindow = document.getElementById("product-window");
   prodWindow.style.display = "flex";
-  var prod = document.getElementById("open-window").style.visibility = 'hidden';
+  var prod = (document.getElementById("open-window").style.visibility =
+    "hidden");
 }
 
 function toggleVideo() {
   var video = document.getElementById("video");
-  if(video.paused) {
-    video.play()
+  
+  if (video.paused) {
+    video.play();
   } else {
-    video.pause()
+    video.pause();
   }
 }
